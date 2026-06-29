@@ -1,0 +1,17 @@
+#include "/home/malay/Work/Project1/simulation/toppar/CG/martini_v3.0.0.itp"
+#include "/home/malay/Work/Project1/simulation/toppar/CG/martini_v3.0.0_ffbonded_v2_openbeta.itp"
+#include "./molecule_0.itp"
+#include "/home/malay/Work/Project1/simulation/toppar/CG/martini_v3.0.0_phospholipids_PC_v2_openbeta.itp"
+#include "/home/malay/Work/Project1/simulation/toppar/CG/martini_v3.0.0_solvents_v1.itp"
+#include "/home/malay/Work/Project1/simulation/toppar/CG/martini_v3.0.0_ions_v1.itp"
+
+[ system ]
+Title of the system in water
+
+[ molecules ]
+molecule_0    1
+POPC           165
+POPC           165
+W           10343
+NA               156
+CL               154
