@@ -93,7 +93,7 @@ rvdw                     = 1.1
 ; coupling should be done semiisotropic.
 
 tcoupl                   = v-rescale
-tc-grps                  = SOL MEM PROT
+tc-grps                  = SOL MEM GLYCOPROT
 tau_t                    = 1.0 1.0 1.0
 ref_t                    = 310 310 310
 
@@ -126,7 +126,7 @@ refcoord_scaling         = all
 ; Center of mass removal
 comm-mode                = Linear
 nstcomm                  = 100
-comm-grps                = SOL MEM PROT
+comm-grps                = SOL MEM GLYCOPROT
 
 ; MARTINI and CONSTRAINTS
 ; for ring systems and stiff bonds constraints are defined
